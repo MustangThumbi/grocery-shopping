@@ -1,0 +1,94 @@
+@media (max-width:1199px){
+    .header_top_section {
+        display: none;
+    }
+    .header_middle_section {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .bars {
+        color: #333;
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 8px 0;
+    }
+    .mobile_logo {
+        display: block;
+    }
+    .organic_vegetables_title_container {
+        /* text-align: center; */
+    }
+    .dropdown1:hover .submenu, .dropdown2:hover .submenu2, .dropdown3:hover .submenu3, .dropdown4:hover .submenu4, .dropdown5:hover .submenu5 {
+        display: none;
+    }
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+    .nav_before::before {
+        content: "";
+        background-color: #fff;
+    }
+    .nav_before::after {
+        content: "";
+        background-color: #fff;
+    }
+
+
+
+
+
+
+    
+}
+
+@media(max-width:991px){
+    .organic_vegetables_title_area {
+        line-height: 1;
+    }
+
+}
+
+@media(max-width:767px){
+    .organic_vegetables_title_container{
+        text-align: center;
+    }
+    .organic_vegetables_text_area {
+        padding: 0;
+        text-align: center;
+    }
+    .featured_fresh_fruits_bottom_area img{
+        padding: 10px 0;
+    }
+    .featured_fresh_fruits_bottom_area {
+        text-align: center;
+    }
+    .footer_section_contact_area {
+        border-bottom: 1px solid #919EAB3D;
+        margin-bottom: 32px;
+    }
+    .footer_about_social_area {
+        padding: 0px;
+    }
+    .footer_submit {
+        padding-top: 24px;
+        border-top: 1px solid #919EAB3D;
+        margin-top: 24px;
+    }
+}
+
+@media(max-width:575px){
+    .banner_text_area {
+        margin: 0px 20px 0px 10px;
+        text-align: center;
+    }
+
+}
+
+
+
+
